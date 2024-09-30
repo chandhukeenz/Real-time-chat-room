@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+    <div class="header">
+        <div class="fse-chatroom-title">FSE Chat Room</div>
+        <button class="logout-chat">Logout</button>
+    </div>
+    <div class="all-messages">
+    </div>
+    <div class="type-box">
+        <input type="text" class="message-input">
+    </div>
+    <div class="post-box">
+        <button class="post-message">Post</button>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/client.js"></script>
+<script>
+    const username = "<%= uname %>";
+</script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "PT Sans";
+}
+
+.chat-room-title {
+    padding-top: 15vh;
+    height: 9vh;
+    font-size: 3.5vh;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 0px;
+}
+
+.home-button button {
+    background-color: #8cb8f5;
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.home-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-home-button, .register-home-button {
+    padding: 10px 20px;
+    font-size: 7vw;
+    cursor: pointer;
+    width: 48%;
+}
+
+.input-box {
+    border: 1.5px solid black;
+    width: 98%;
+    height: 6vh;
+    font-size: 3vh;
+}
+
+.input-form {
+    height: 80vw;
+    font-size: 4vh;
+    align-content: center;
+    width: 90%;
+    padding-left: 5vw;
+}
+
+.uname-box, .pwd-box {
+    padding-bottom: 3vh;
+}
+
+.flash-message {
+    font-size: 2vh;
+    font-style: italic;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #8cb8f5;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    width: 92vw;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    font-size: 7vw;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+.logout-chat {
+    background-color: #f4a560;
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-weight: bold;
+    height: 4.8vh;
+    width: 14vh;
+    font-size: 6vw;
+    align-items: center;
+    margin-right: 1vh;
+}
+
+.fse-chatroom-title {
+    padding-left: 1vh;
+}
+
+.message {
+    background-color: #ebebeb;
+    margin-bottom: 1vw;
+    width: 92vw;
+    margin-left: 2vh;
+    box-sizing: border-box;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.message .text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: 1vh 0;
+    white-space: pre-wrap;
+    padding-left: 2vw;
+    overflow-x: hidden;
+    width: 90vw;
+}
+
+.all-messages {
+    height: 52vh;
+    overflow-y: auto;
+    width: 97vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.type-box {
+    padding-left: 4vw;
+    padding-right: 5vw;
+    margin-top: 2vw;
+}
+
+.message-input {
+    height: 22vh;
+    width: 90.7vw;
+    margin-bottom: 2vh;
+    font-size: 7vw;
+    border: 0.3vw solid black;
+}
+
+.post-box {
+    background-color: #8cb8f5;
+    margin-left: 4vw;
+    height: 7vh;
+    width: 31.2vh;
+    padding-left: 15vh;
+}
+
+.post-message {
+    background-color: #f4a560;
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-weight: bold;
+    height: 5vh;
+    width: 11vh;
+    font-size: 6vw;
+    align-self: center;
+    margin-top: 1vh;
+    margin-left: 3vh;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 1vh;
+    width: 26vh;
+    padding-left: 2vw;
+}
+
+.dateAndTime {
+    margin-top: 1vh;
+}
+
+.nameAndTime {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.app {
+    width: 90vw;
+}

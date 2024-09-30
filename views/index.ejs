@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSE Chat Room</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<h1 class="chat-room-title">FSE Chat Room</h1>
+<form action="/login" method="POST" class="input-form">
+    <div class="uname-box">
+        <label for="username">Username</label><br>
+        <input type="text" name="uname" id="username" class="input-box" required>
+    </div>
+    <div class="pwd-box">
+        <label for="password">Password</label><br>
+        <input type="password" name="pwd" id="password" class="input-box" required>
+    </div>
+    <% if (flashMessage && flashMessage.length > 0) { %>
+        <ul class="flash-message">
+            <% flashMessage.forEach(function(message) { %>
+                <%= message %>
+            <% }) %>
+        </ul>
+    <% } %>
+    <div class="home-button">
+        <button type="submit" class="login-home-button">Login</button>
+        <button type="submit" formaction="/register" class="register-home-button">Register</button>
+    </div>
+</form>
+</body>
+</html>
